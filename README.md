@@ -1,6 +1,6 @@
 # BITZ Auto Installer
 
-Run using:
+Run using (Must be a Linux user and not logged in as root):
 
 ```bash
 wget -O ~/bitz-auto.sh https://raw.githubusercontent.com/on-blockchain/bitz/main/bitz-auto.sh && bash ~/bitz-auto.sh && source ~/.bashrc
@@ -13,7 +13,7 @@ If you want to install it manually, follow the below commands:
 
 # BITZ Manual Installation Guide
 
-This guide provides manual steps to install the necessary dependencies, Solana wallet, and BITZ CLI. Follow the steps below for a manual setup.
+This guide provides manual steps to install the necessary dependencies, Solana wallet, and BITZ CLI. Follow the steps below for a manual setup. (Must be a Linux user and not logged in as root)
 
 ```bash
 # === Step 1: Update System and Install Dependencies ===
