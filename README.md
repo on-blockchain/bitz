@@ -59,8 +59,12 @@ bitz --version
 # === Step 8: Fund Your Wallet ===
 # To fund your wallet, first get your Solana wallet address by running:
 solana address
-# The output will be your wallet address. Send at least 0.005 ETH to this address using an Ethereum wallet or exchange.
+# The output will be your wallet address. Send at least 0.005 ETH to this address on Eclipse network.
 
 # === Step 9: Run the Mining Script ===
 # To start mining, run the following command:
 bitz collect
+
+# or to specify the number of CPU cores (example to use 10 CPU cores)
+bitz collect --cores 10
+
