@@ -29,7 +29,7 @@ function install_everything() {
   solana-keygen new --no-passphrase --force
 
   echo "=== Setting Solana config for Eclipse ==="
-  solana config set --url https://mainnetbeta-rpc.eclipse.xyz/
+  solana config set --url https://bitz-000.eclipserpc.xyz/
 
   echo "=== Installing BITZ CLI ==="
   cargo install bitz
