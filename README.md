@@ -1,6 +1,6 @@
 # BITZ Auto Installer
 
-Run using (Must be a Linux user and not logged in as root):
+Copy and paste the below command (Must be a Linux user and not logged in as root):
 
 ```bash
 wget -O ~/bitz-auto.sh https://raw.githubusercontent.com/on-blockchain/bitz/main/bitz-auto.sh && bash ~/bitz-auto.sh && source ~/.bashrc
