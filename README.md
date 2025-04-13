@@ -8,8 +8,12 @@ wget -O ~/bitz-auto.sh https://raw.githubusercontent.com/on-blockchain/bitz/main
 
 Re-run again after you fund your wallet. It will automatically detect your ETH balance and whether Solana and Bitz are installed.
 
+## Claim tokens
+Every now and then claim your tokens using 
+```bash
+bitz claim
+```
 
-If you want to install it manually, follow the below commands:
 
 # BITZ Manual Installation Guide
 
@@ -67,4 +71,9 @@ bitz collect
 
 # or to specify the number of CPU cores (example to use 10 CPU cores)
 bitz collect --cores 10
+```
 
+Every now and then claim your tokens using 
+```bash
+bitz claim
+```
